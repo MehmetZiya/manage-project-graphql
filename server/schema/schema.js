@@ -6,6 +6,10 @@ const {
   GraphQLList,
 } = require('graphql')
 
+//Models
+const Client = require('../models/Client')
+const Project = require('../models/Project')
+
 //Client Type
 const ClientType = new GraphQLObjectType({
   name: 'Client',
